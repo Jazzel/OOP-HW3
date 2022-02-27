@@ -1,7 +1,11 @@
 #pragma once
-#include<iostream>
+#include <iostream>
 using namespace std;
 
+/**
+ * ? @brief Truck structure
+ * * Contains attributes of truck
+ */
 struct Truck
 {
     string driver;
@@ -10,4 +14,3 @@ struct Truck
     int fullMileage;
     int emptyMileage;
 };
-
